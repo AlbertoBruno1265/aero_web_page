@@ -8,3 +8,30 @@ html{
     scroll-behavior: smooth;
 }
 
+.menu ul{
+    display: flex;
+    list-style: none;
+}
+
+.menu a{
+    font-size: 27px;
+    color: #165d7c;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 25px;
+}
+
+
+.menu{
+    display: flex;
+    margin: 0 auto;
+
+    width: 75%;
+    min-width: 645px;
+    height: 175px;
+
+    background-color: rgb(224, 210, 210);
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0 0 25px 25px;
+}
